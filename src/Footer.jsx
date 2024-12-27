@@ -29,8 +29,8 @@ const Footer = () => {
         </section>
         <section className='second-footer'>
             <div className="dont-flex">
-            <a href='/about' className='mt-5'>About Njiko</a>
-            <a href='/projects' className='mt-5'>Projects</a>
+            <a href='/' className='mt-5'>About Njiko</a>
+            <a href='/' className='mt-5'>Projects</a>
             </div>
         
         </section>
