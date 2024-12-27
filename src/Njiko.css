@@ -191,17 +191,18 @@ color: #B05423;
     padding-top: 1.5rem;
   }
   .group-1{
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
   }
   .group-2{
-    width:50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
   .hero-section h1{
     font-size: 1.5rem;
   }
   .intro{
+    text-align: center;
     margin-top: 2rem;
     font-size: 20px;
     letter-spacing: 1px;
@@ -211,7 +212,10 @@ color: #B05423;
     line-height: 25px;
   }
   .projects img{
-    width: 350px;
+    width: 90%;
+    display: flex;
+  justify-self: center;
+
   }
   .landmark{
     width: 100%;
