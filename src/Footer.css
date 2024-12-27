@@ -1,0 +1,64 @@
+.footer{
+    display: flex;
+    color: white;
+    font-family: 'JMH Typewriter';
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #290B03;
+}
+.connect{
+    margin-top: 10rem;
+    width: 40%;
+    padding-left: 15%;
+}
+.connect h1{
+    letter-spacing: 2px;
+}
+.connect h6{
+    font-size: 16px;
+}
+.list{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.list img{
+    width: 30px;
+    height: 30px;
+}
+.second-footer{
+    width: 40%;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+}
+.second-footer a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Poppins';
+}
+@media (max-width: 768px){
+    .connect{
+        width: 100%;
+        padding-left: 10%;
+    }
+    .second-footer{
+        width: 100%;
+    }
+    .at{
+        margin-left: 25%;
+    }
+    .number{
+        margin-left: 25%;
+    }
+    .mail{
+        margin-left: 25%;
+    }
+}
