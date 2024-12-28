@@ -77,6 +77,32 @@ color: #B05423;
 .hero-section{
   text-align: center;
 }
+.marquee {
+  display: flex;
+  white-space: nowrap; 
+  overflow: hidden;
+  position: relative;
+}
+.marquee h1 {
+  display: inline-block;
+  animation: scroll-text 100s linear infinite; 
+  margin: 0;
+}
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+.hero-section {
+  overflow: hidden;
+  width: 100%; 
+  padding: 20px; 
+  position: relative;
+}
 .hero-section h1{
   font-size: 3rem;
   font-family: 'JMH Typewriter';

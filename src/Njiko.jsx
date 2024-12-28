@@ -67,7 +67,12 @@ function App() {
       </div>
     </div>
     <div className="hero-section">
-      <h1>Preserving the Past, Innovating for the Future.</h1>
+    <div className="marquee">
+    <h1>
+      Preserving the Past, Innovating for the Future. Preserving the Past, Innovating for the Future. Preserving the Past, Innovating for the Future.
+    </h1>
+  </div>
+
       <p className="about-njiko">
       ABOUT NJIKO
       </p>
