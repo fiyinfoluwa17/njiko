@@ -78,7 +78,7 @@ function App() {
     <section className="projects">
       <h1>OUR PROJECTS</h1>
       <p className="digital"><b>Njiko’s Inaugural Digital Symposium themed “Rooted Legacies, Emerging Worlds”</b></p>
-      <img className="poster" src={img2} alt="" />
+      <img src={img2} alt="" />
       <p className="landmark">This landmark event will explore how heritage data, creativity, and storytelling can drive cultural resilience and inspire sustainable economies.  </p>
       <div className="button-container">
       <a href="http://bit.ly/NJIKO2024" target="_blank" className="button">Register</a>
