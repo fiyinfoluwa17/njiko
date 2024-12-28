@@ -216,7 +216,7 @@ color: #B05423;
     line-height: 25px;
   }
   .projects img{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
