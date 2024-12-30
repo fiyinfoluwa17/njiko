@@ -5,6 +5,9 @@ overflow-x: hidden;
 align-items: center;
 display: block;
 justify-content: center;
+-webkit-justify-content: center;
+-webkit-align-items: center;
+
 }
 .njiko-name a{
 font-family: 'JMH Typewriter';
